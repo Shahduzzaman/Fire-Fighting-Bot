@@ -66,8 +66,8 @@ void loop() {
   delay(1);  // delay between reads
 
   //-----------------------
-  
   // put your main code here, to run repeatedly:
+  
 if (Serial.available() > 0) {
     incomingByte = Serial.read();
     }
